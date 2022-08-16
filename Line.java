@@ -35,5 +35,12 @@ public class Line {
 				System.out.println("Both lines are equal");
 			else
 				System.out.println("Both lines are not equal");
+			
+			int res = line1.compareTo(Line2); if(res > 0) System.out.
+			  println("Length of first end points is greater than length of second end points"  );
+			else if(res < 0) System.out.
+			  println("Length of first end points is less than length of second end points" );
+			 else System.out.println("Both lines are equal.");
+			 
 	    	}
 }
